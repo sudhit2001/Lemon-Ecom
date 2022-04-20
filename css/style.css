@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@100&display=swap');
+:root{
+    font-size: 17px;
+}
+body{
+    font-family: 'Lato';
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255,1);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+div.burger-hid{
+    display: none;
+    z-index: 5;
+    padding: 1.45em 0;
+    position: absolute; 
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: #047aed;
+    color: white;
+}
+.burger-hid span{
+    font-size: 1.7em;
+    display: inline-block;
+    padding-left: 1.3em;
+    padding-bottom: 1.2em;
+}
+.burger-hid .container{
+    border-top: 1px solid white;
+    padding-top: 1.5em;
+}
+.burger-items-hid{
+    text-align: center;
+}
+.burger-hid a{
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 0.3em;
+    padding-bottom: 0.7em;
+    border-bottom: 1px solid white;
+    width: 80%;
+    text-align-last: left;
+    cursor: pointer;
+}
+.bars{
+    font-size: 1.5em;
+    color: white;
+}
+header{
+    background-color: #047aed;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 0;
+}
+.header a{
+    color: rgba(255, 255, 255,0.8);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.header a:hover{
+    color: rgba(255, 255, 255,1);
+}
+section{
+    background-color: #047aed;
+}
+section> *{
+    color: #fff;
+}
+.stext{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    grid-column-gap: 4em;
+}
+.atext{
+    margin-left: 1em;
+}
+.atext h1{
+    font-size: 3.2em;
+}
+.atext h3{
+    margin-top: 0.7em;
+    font-size: 1.2em;
+}
+.iphone12{
+    width: 100%;
+    grid-row: 1/3;
+    position: relative;
+    top: 7em;
+    overflow: visible;
+    z-index: 2;
+}
+.btext{
+    margin-left: 1em;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.btext h3{
+    font-size: 2em;
+}
+.btext a{
+    display: inline-block;
+    margin-top: 0.6em;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 7px 23px;
+}
+.btext a:hover{
+    transform: scale(0.98);
+}
+.aside{
+    position: relative;
+    top: -1.4em;
+    height: 100px;
+    background: #fff;
+    transform: skewY(-2.5deg);
+}
+.how{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 8em;
+}
+.how h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.how-cards{
+    display: grid;
+    grid-column-gap: 8em;
+    grid-template-columns: repeat(3,1fr);
+}
+.how-cards li{
+    border-radius: 10px;
+    padding: 3em 1em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.how-cards li:hover{
+    transform: scale(1.05);
+}
+.how-cards h3{
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+.how-cards span{
+    font-size: 2em;
+}
+main{
+    text-align: center;
+}
+main a{
+    color: #047aed;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 0.8em;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+main img{
+    width: 60%;
+    margin-bottom: 2em;
+}
+.m{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap:2em;
+    margin-bottom: 10em;
+}
+.inner1,.inner2,.inner3,.inner4{
+    text-align: left;
+}
+.m h2{
+    font-size: 2em;
+}
+.m h5{
+    font-size: 1.3em;
+}
+img[src="./Utilities/airpods.jpg"]{
+    width: 40%;
+}
+article{
+    text-align: center;
+    background-color: #047aed;
+    color: #fff;
+    padding: 5em 0;
+}
+article h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.why-cards{
+    display: grid;
+    grid-column-gap: 5em;
+    grid-template-columns: repeat(3,1fr);
+}
+.why-cards li{
+    border-radius: 10px;
+    padding: 2em 2em 1em 2em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.why-cards li:hover{
+    transform: scale(1.05);
+}
+.why-cards h3{
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+.why-cards span{
+    font-size: 2em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: #002240;
+    color: #fff;
+    padding: 4em 0;
+}
+.details{
+    margin-top: 2em;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.logo{
+    text-align: left;
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social li{
+    font-size: 2em;
+}
+.how h5{
+    font-size: 2em;
+    margin-top: 1em;
+}
+.hide,.bars{
+    display: none !important;
+}
+input[type="radio"]{
+    margin-left: 0.4em;
+}
+input[type="radio"]:hover,.social li:hover{
+    cursor: pointer;
+}
+
+@media(max-width:975px){
+    .stext{
+        grid-column-gap: 2em;
+        grid-row-gap:0;
+    }
+    .iphone12{
+        top: 3em;
+    }
+    .atext h1{
+        font-size: 2.8em;
+    }
+    .atext h3{
+        font-size: 1em;
+    }
+    .btext h3{
+        font-size: 1.7em;
+    }
+    .btext a{
+        font-size: 0.8em;
+    }
+    .how-cards{
+        grid-column-gap: 4em;
+    }
+    .why-cards{
+        grid-column-gap: 3em;
+    }
+}
+@media(max-width:900px){
+    .nav{
+        display: none;
+    }
+    .how-cards,.why-cards{
+        grid-template-columns: 1fr;
+    }
+    .how-cards>li,.why-cards>li{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .bars{
+        display: inline-block !important;
+    }
+    
+}
+@media(max-width:720px){
+    .atext h1{
+        font-size: 2.5em;
+    }
+    .atext h3{
+        font-size: 1em;
+    }
+    .btext h3{
+        font-size: 1.5em;
+    }
+    .btext a{
+        font-size: 1em;
+        padding: 5px 15px;
+    }
+    .iphone12{
+        top: 0em;
+    }
+    .stext{
+        padding: 2em 0;
+    }
+    .aside{
+        display: none;
+    }
+    .how h1{
+        margin-top: 2em;
+    }
+}
+
+@media(max-width:520px){
+    .stext{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .how h1{
+        font-size: 2.5em;
+    }
+    .how h3,.why-cards h3{
+        font-size: 1.5em;
+    }
+    .how span,.why-cards span{
+        font-size: 1.5em;
+    }
+    article h1{
+        font-size: 2.5em;   
+    }
+    footer h5{
+        text-align: center;
+    }
+    .m{
+        grid-template-columns: 1fr;
+        text-align: left;
+        margin-bottom: 7em;
+    }
+    .social li{
+        font-size: 1.5em;
+    }
+    .details{
+        grid-template-columns: 1fr;
+    }
+    .details > *{
+        margin-bottom: 1em;
+    }
+    .logo{
+        text-align: center;
+    }
+}

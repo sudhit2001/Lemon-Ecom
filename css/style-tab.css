@@ -1,0 +1,46 @@
+.stext img{
+    padding-top: 0;
+    width: 85%;
+    top: 7.5em;
+    left: 2em;
+}
+.atext{
+    margin-top: 8em;
+}
+.how h1{
+    margin-bottom: 1.5em;
+}
+.how-cards h3{
+    margin-bottom: 1em;
+}
+.how-cards{
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.far{
+    font-size: 1.2em;
+}
+@media(max-width:900px){
+    .how-cards{
+        width: 100%;
+    }
+}
+@media(max-width:700px){
+    .stext img{
+        top: 3em;
+    } 
+    .atext{
+        margin-top: 2em;
+    }
+}
+@media(max-width:520px){
+    .stext img{
+        top: 3em;
+        left: 0em;
+    }
+    #tinput p{
+        font-size: 0.87em;
+    }
+}

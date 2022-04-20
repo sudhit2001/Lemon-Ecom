@@ -1,0 +1,85 @@
+.welc{
+    background-color: #047aed;
+    color: white;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    padding: 4em 0;
+    justify-content: space-around;
+}
+.wtext{
+    font-size: 1.3em;
+}
+.name{
+    font-size: 3em;
+}
+.fa-user{
+    font-size: 10em;
+}
+.far{
+    font-size: 1.2em;
+}
+.cart-items{
+    padding: 4em 0;
+}
+.cart-items span{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+}
+.cart-items h1{
+    text-align: left;
+    margin-top: 1.2em;
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+.tobuy{
+    padding: 1.5em;
+    border: 1px dashed black;
+}
+.order-cash{
+    background-color: #047aed;
+    padding: 0.7em 1.5em;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 2em;
+}
+.placed{
+    background-color: #047aed;
+    color: white;
+}
+.ordered{
+    padding: 4em 0;
+    text-align: center;
+}
+.ordered span{
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+.previous-orders{
+    text-align-last: left;
+    padding: 1.5em;
+    border: 1px white dashed;
+}
+/* #empc span{
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 2em;
+    font-weight: bolder;
+    color: rgb(243, 11, 11);
+} */
+@media(max-width:450px){
+    .intro{
+        flex-direction: column;
+        text-align: center;
+    }
+    .wtext{
+        margin-bottom: 1em;
+    }
+    .cart-items h1{
+        text-align: center;
+    }
+}

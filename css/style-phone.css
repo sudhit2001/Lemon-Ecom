@@ -1,0 +1,37 @@
+.stext img{
+    padding-top: 0;
+    width: 85%;
+    top: 7em;
+    left: 2em;
+}
+.atext{
+    margin-top: 8em;
+}
+.how-cards h3{
+    margin-bottom: 1em;
+}
+.how-cards span{
+    font-size: 0.8em;
+    color: #047aed;
+    font-weight: bolder;
+}
+.far{
+    font-size: 1.2em;
+}
+@media(max-width:700px){
+    .stext img{
+        top: 3em;
+    } 
+    .atext{
+        margin-top: 2em;
+    }
+}
+@media(max-width:520px){
+    .stext img{
+        top: 3em;
+        left: 0em;
+    } 
+    #pinput1 p,#pinput2 p{
+        font-size: 0.87em;
+    }
+}
